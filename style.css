@@ -1,12 +1,16 @@
+body {
+    background: #2f4f4f;
+}
+#img {
+    width: 100%;
+    margin: auto;
+}
 .text {
     text-align: center;
     color: #d2b48c;
     font-size: 23px;
 }
 
-body {
-    background: #2f4f4f;
-}
 
 em strong {
     color: #f4a460;
