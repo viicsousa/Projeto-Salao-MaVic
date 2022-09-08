@@ -15,3 +15,7 @@ body {
 em strong {
     color: #f4a460;
 }
+
+.list {
+    font-style: italic;
+}
