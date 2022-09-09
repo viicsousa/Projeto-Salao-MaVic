@@ -1,5 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
-    background: #2f4f4f;
+    background: #f0ffff;
+
 }
 #img {
     width: 100%;
@@ -9,6 +14,7 @@ body {
     text-align: center;
     color: #d2b48c;
     font-size: 23px;
+    background: #2f4f4f;
 }
 
 
@@ -18,4 +24,12 @@ em strong {
 
 .list {
     font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+#imgtwo {
+    width: 50%;
 }
