@@ -8,20 +8,27 @@ body {
 }
 #img {
     width: 100%;
-    margin: auto;
+    
 }
 .text {
     text-align: center;
     color: #d2b48c;
     font-size: 23px;
     background: #2f4f4f;
+    padding: 45px;
+
 }
 
 
 em strong {
     color: #f4a460;
 }
-
+.itens {
+    padding: 25px;
+}
+.itens h2 {
+    margin-bottom: 25px;
+}
 .list {
     font-style: italic;
 }
@@ -29,7 +36,13 @@ em strong {
 h2 {
     text-align: center;
 }
-
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 41%;
+    margin-left: 5%;
+}
 #imgtwo {
     width: 50%;
 }
+
