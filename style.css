@@ -2,10 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+
 body {
-    background: #f0ffff;
+    background:#fff2dc;
+}
+
+.title-main {
+    padding-left: 29px;
 
 }
+
 #img {
     width: 100%;
     
@@ -26,14 +32,14 @@ em strong {
 .itens {
     padding: 25px;
 }
-.itens h2 {
+.itens h3 {
     margin-bottom: 25px;
 }
 .list {
     font-style: italic;
 }
 
-h2 {
+.title-secondary {
     text-align: center;
 }
 ul {
