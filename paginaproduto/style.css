@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+.navbar {
+    display: flex;
+    background-color: #ebb248;
+    padding: 25px;
+    height: 17%;
+    justify-content: space-around;
+    
+    
+}
+
+
+#logo {
+    height: 250px;
+    
+}
+
+.itensnavbar {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    
+    
+}
+
+.itens {
+    margin: 25px;
+    font-size: 25px;
+    list-style: none;
+    
+    
+}
