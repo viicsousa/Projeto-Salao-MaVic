@@ -2,9 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}  
-
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .navbar {
     display: flex;
     background-color: #ebb248;
@@ -24,16 +23,21 @@
 .itensnavbar {
     display: flex;
     flex-direction: row;
-    
+   
     align-items: center;
     
     
+}
+
+.itensnavbar li a {
+    text-decoration: none;
 }
 
 .itens {
     margin: 25px;
     font-size: 25px;
     list-style: none;
-    
+    text-decoration: none;
+    font-weight: bold;
     
 }
