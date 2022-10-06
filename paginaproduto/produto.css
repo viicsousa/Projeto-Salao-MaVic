@@ -4,6 +4,9 @@
     box-sizing: border-box;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+body {
+    background-color: #fafaf0;
+}
 .navbar {
     display: flex;
     background-color: #ebb248;
@@ -17,16 +20,12 @@
 
 #logo {
     height: 250px;
-    
 }
 
 .itensnavbar {
     display: flex;
-    flex-direction: row;
-   
+    flex-direction: row; 
     align-items: center;
-    
-    
 }
 
 .itensnavbar li a {
@@ -39,5 +38,71 @@
     list-style: none;
     text-decoration: none;
     font-weight: bold;
+}
+
+main ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main ul li {
+    margin-top: 200px;
+    list-style: none;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 35px;
+    margin-right: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 200ms all ;
     
+}
+main ul li:hover {
+    border-color: red;
+}
+main ul li h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px; 
+}
+
+.container-cabelo {
+    padding: 60px;
+    padding-top: 40px;
+}
+
+.container-unha {
+    padding: 80px;
+    padding-top: 40px;
+    
+}
+
+ .punha {
+    padding-top: 55px;
+}
+
+#imgcabelo {
+    padding-top: 40px;
+    height: 300px;
+}
+
+#imgunha {
+    padding-top: 80px;
+    height: 240px;
+}
+
+#imgcabeloeunha {
+    height: 300px;
+}
+
+main ul li p {
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+}
+
+.value {
+    font-weight: bold;
 }
